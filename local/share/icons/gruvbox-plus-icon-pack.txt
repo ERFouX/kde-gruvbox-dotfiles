@@ -1,3 +1,0 @@
-git clone https://github.com/SylEleuth/gruvbox-plus-icon-pack.git
-
-git clone git@github.com:SylEleuth/gruvbox-plus-icon-pack.git
