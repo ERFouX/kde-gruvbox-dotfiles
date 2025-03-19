@@ -1,2 +1,2 @@
 # Kde-Gruvbox-Dotfiles
-My Kde Desktop customization With Gruvbox Theme Dotfiles
+My Kde Desktop Customization With Gruvbox Theme Dotfiles
