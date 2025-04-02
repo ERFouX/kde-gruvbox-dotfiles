@@ -1,3 +1,4 @@
+aerc
 alsa-utils
 amd-ucode
 android-file-transfer
@@ -31,6 +32,7 @@ cyme
 diffutils
 discord
 dmidecode
+docker
 dolphin
 dolphin-plugins
 dosfstools
@@ -41,8 +43,12 @@ elisa
 fastfetch
 filezilla
 firefox
+fortune-mod
 fprintd
+genact
 git
+github-cli
+gping
 gpm
 grub
 grub-customizer
@@ -66,9 +72,11 @@ kdeconnect
 kdecoration
 kdenlive
 kdeplasma-addons
+kew
 kgamma
 kglobalacceld
 kinfocenter
+kitty
 kitty-terminfo
 kmenuedit
 konsole
@@ -85,6 +93,7 @@ kwin
 kwrited
 latte-dock
 layer-shell-qt
+lazygit
 less
 libkscreen
 libksysguard
@@ -104,6 +113,7 @@ mkinitcpio
 modemmanager
 nano
 navi
+nbfc-linux
 ncmpcpp
 nekoray-bin
 neochat
@@ -114,7 +124,7 @@ nginx
 nilfs-utils
 noto-fonts-cjk
 ntfs-3g
-oblivion-desktop-git
+oblivion-desktop-bin
 obs-studio
 obsidian
 ocean-sound-theme
@@ -132,10 +142,12 @@ parch-bluetooth
 parch-branding
 parch-emoji-ios
 parch-grub
+parch-nix
 parch-pacman
 parch-plymouth
 parch-printer
 parch-wallpapers
+parchlinux-keyring
 parted
 partitionmanager
 paru
@@ -188,13 +200,17 @@ spectacle
 spotify
 sublime-text-4
 sudo
+superfile
 systemsettings
+tcpdump
 telegram-desktop
 terminus-font
+thermald
 tmux
 tokodon
 tpm2-tss
 tree
+trippy
 ttf-apple-emoji
 ttf-vazirmatn
 udftools
@@ -265,7 +281,9 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+yazi
 zen-browser-bin
+zoxide
 zsh
 zsh-autocomplete
 zsh-autosuggestions
