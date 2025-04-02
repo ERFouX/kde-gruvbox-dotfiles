@@ -12,8 +12,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=447
+popupWidth=448
 wallpaperplugin=org.kde.image
 
 [Containments][10][Applets][11]
@@ -32,7 +32,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][10][Applets][13][Configuration]
-PreloadWeight=75
+PreloadWeight=85
 
 [Containments][10][Applets][14]
 immutability=1
@@ -47,7 +47,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][10][Applets][16][Configuration]
-PreloadWeight=65
+PreloadWeight=95
 
 [Containments][10][Applets][17]
 immutability=1
@@ -74,12 +74,8 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.cameraindicator
 
-[Containments][10][Applets][21]
-immutability=1
-plugin=org.kde.plasma.vault
-
 [Containments][10][Applets][21][Configuration]
-PreloadWeight=55
+PreloadWeight=42
 
 [Containments][10][Applets][22]
 immutability=1
@@ -107,7 +103,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][10][Applets][27][Configuration]
-PreloadWeight=87
+PreloadWeight=92
 
 [Containments][10][Applets][27][Configuration][General]
 showPercentage=true
@@ -117,7 +113,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][10][Applets][28][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][10][Applets][31]
 immutability=1
@@ -126,9 +122,17 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][10][Applets][31][Configuration]
 PreloadWeight=0
 
+[Containments][10][Applets][33][Configuration]
+PreloadWeight=42
+
+[Containments][10][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][10][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.battery
+extraItems=org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator,org.kde.plasma.battery
 knownItems=org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.cameraindicator,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.battery
+shownItems=spotify-client,org.kde.plasma.bluetooth
 
 [Containments][2]
 activityId=
@@ -145,8 +149,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=612
-popupWidth=750
+popupHeight=627
+popupWidth=766
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -186,19 +190,26 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][6][Configuration]
 PreloadWeight=100
-popupHeight=450
-popupWidth=810
+popupHeight=454
+popupWidth=814
 
 [Containments][2][Applets][6][Configuration][Appearance]
+autoFontAndSize=false
+boldText=true
 customSpacing=1.7171717171717171
-enabledCalendarPlugins=/usr/lib/qt5/plugins/plasmacalendarplugins/holidaysevents.so
+dateFormat=isoDate
+enabledCalendarPlugins=/usr/lib/qt5/plugins/plasmacalendarplugins/holidaysevents.so,holidaysevents,alternatecalendar
 fixedFont=true
-fontFamily=SFNS Display
-fontSize=15
+fontFamily=JetBrains Mono ExtraBold
+fontSize=9
+fontStyleName=Regular
+fontWeight=800
+showWeekNumbers=true
+use24hFormat=2
 
 [Containments][2][Applets][6][Configuration][ConfigDialog]
-DialogHeight=510
-DialogWidth=680
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][7]
 immutability=1
@@ -228,7 +239,7 @@ DialogWidth=1920
 AppletOrder=3;4;5;6;7;8;9
 
 [Containments][30]
-ItemGeometries-1745x982=Applet-34:31.82,831.775,64,64,0;
+ItemGeometries-1745x982=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=49194745-0190-4959-a3e5-48834dd50cb3
@@ -237,22 +248,22 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.slideshow
+wallpaperplugin=org.kde.image
 
 [Containments][30][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][30][General]
-positions={"1745x982":[],"1920x1080":["1","17"]}
+positions={"1745x982":["1","16"],"1920x1080":["1","17"]}
 sortMode=-1
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/mix/random.jpg
+Image=/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/mix/gruvbox15.png
 SlidePaths=/home/erfoux/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][30][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/minimalistic/firefox.png
+Image=file:///home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/pixelart/chinatown.png
 SlideInterval=180
 SlidePaths=/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/anime/,/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/light/,/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/minimalistic/,/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/mix/,/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/pixelart/,/home/erfoux/Pictures/Wallpapers/gruvbox-wallpapers-main/wallpapers/videogame-3d-art/
 
@@ -270,4 +281,4 @@ positions={"1920x1080":[]}
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/140333100008772863_0.pdf,0,49194745-0190-4959-a3e5-48834dd50cb3,desktop:/Revo-os,0,49194745-0190-4959-a3e5-48834dd50cb3,desktop:/140333100008772863.pdf,0,49194745-0190-4959-a3e5-48834dd50cb3
+screenMapping=desktop:/Revo-os,0,49194745-0190-4959-a3e5-48834dd50cb3,desktop:/140333100008772863.pdf,0,49194745-0190-4959-a3e5-48834dd50cb3,desktop:/140333100008772863_0.pdf,0,49194745-0190-4959-a3e5-48834dd50cb3

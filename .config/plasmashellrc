@@ -8,6 +8,12 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk8AAAACAQAAAQAA
 [General]
 Number of Actions=0
 
+[KFileDialog Settings]
+listViewIconSize=292
+
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [PlasmaViews][Panel 2]
 alignment=132
 floating=1

@@ -7,6 +7,9 @@ Id_2=57140410-eea0-438a-8804-e402ce93de1a
 Number=2
 Rows=1
 
+[Effect-mousemark]
+LineWidth=4
+
 [ElectricBorders]
 BottomLeft=ShowDesktop
 
@@ -17,11 +20,18 @@ NightTemperature=4300
 TransitionTime=10
 
 [Plugins]
+desktopchangeosdEnabled=false
+dimscreenEnabled=true
+glideEnabled=true
 magiclampEnabled=true
 minimizeallEnabled=false
+mousemarkEnabled=true
+scaleEnabled=false
+slidebackEnabled=true
 squashEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
+wobblywindowsEnabled=true
 
 [Tiling]
 padding=4
@@ -30,7 +40,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][55c8579a-dbb6-5703-9e20-7aa62f55d54e]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.275},{"width":0.5},{"width":0.22499999999999998}]}
 
 [Tiling][dc6fb392-7dee-58d7-a32a-41ef76b6267a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -50,4 +60,4 @@ BorderSize=None
 BorderSizeAuto=false
 ButtonsOnLeft=XIAH
 ButtonsOnRight=
-theme=__aurorae__svg__WhiteSur-dark
+theme=__aurorae__svg__summaculate-night-opaque
